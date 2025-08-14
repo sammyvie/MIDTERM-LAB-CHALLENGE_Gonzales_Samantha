@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>POST Method Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>User Information Form</h1>
+    <form action="/submit-form" method="POST">
+        <label>Full Name:</label>
+        <input type="text" name="fullname" required><br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email" required><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male" required> Male
+        <input type="radio" name="gender" value="Female" required> Female
+        <input type="radio" name="gender" value="Other" required> Other<br><br>
+
+        <label>Skills:</label>
+        <input type="checkbox" name="skills" value="HTML"> HTML
+        <input type="checkbox" name="skills" value="CSS"> CSS
+        <input type="checkbox" name="skills" value="JavaScript"> JavaScript
+        <input type="checkbox" name="skills" value="Node.js"> Node.js<br><br>
+
+        <label>Country:</label>
+        <select name="country" required>
+            <option value="">Select...</option>
+            <option value="Philippines">Philippines</option>
+            <option value="USA">USA</option>
+            <option value="Japan">Japan</option>
+        </select><br><br>
+
+        <label>Comments:</label><br>
+        <textarea name="comments" rows="4" cols="40"></textarea><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

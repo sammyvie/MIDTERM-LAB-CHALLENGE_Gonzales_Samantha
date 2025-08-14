@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #123458;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #F1EFEC;
+}
+
+form {
+    background-color: white;
+    max-width: 600px;
+    margin: auto;
+    padding: 40px; /* Equal padding all sides */
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select, textarea, button {
+    margin-top: 4px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
+    padding-right: 1%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+button {
+    background-color: #123458;
+    color: white;
+    font-size: 21px;
+    border: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3896e8;
+}
+
+/* Confirmation page styles */
+.confirmation-container {
+    background-color: white;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 10%;
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    color: #333;
+}
+
+.confirmation-container h1 {
+    color: #123458;
+}
+
+.confirmation-container p {
+    color: #004988;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top:15px;
+    padding: 10px 15px;
+    background-color: #123458;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-btn:hover {
+    background-color: #0d2840;
+}
